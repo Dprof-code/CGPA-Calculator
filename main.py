@@ -214,7 +214,7 @@ elif score1 <= 100:
 
 GP = GP1 + GP2 + GP3 + GP4 + GP5 + GP6 + GP7 + GP8 + GP9 + GP10 + GP11
 CU = CU1 + CU2 + CU3 + CU4 + CU5 + CU6 + CU7 + CU8 + CU9 + CU10 + CU11
-GPA = int(GP / CU)
+GPA = float(GP / CU)
 
 GL = ["Failed, you have F", "Poor, you have D", "Average, you have C", "Good, you have B",
       "Excellent,you got A"]
@@ -371,7 +371,7 @@ else:
     print("Invalid Input")
 GPA = str(GPA)
 print("Your GPA is " + GPA)
-GPA = int(GPA)
+GPA = float(GPA)
 if GPA <= 2.39:
     print("Poor, You are on Third Class")
 elif GPA <= 3.49:
