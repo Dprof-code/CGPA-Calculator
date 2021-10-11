@@ -3,8 +3,6 @@
 # This is the key to this program
 # GP simply means Grade Point
 # CU simply means credit unit#
-
-
 import time
 
 print("===========================WELCOME=================================")
